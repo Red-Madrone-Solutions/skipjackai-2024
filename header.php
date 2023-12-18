@@ -45,11 +45,9 @@ $title_classes = new ClassList('font-bold text-3xl md:text-6xl')
                 <!-- Logo -->
                 <div class="flex gap-5">
                     <?php if ( has_custom_logo() ) : ?>
-                    <div class="rounded-lg shadow-slate-500 shadow-lg">
-                            <div class="overflow-hidden rounded-lg">
-                                <?php the_custom_logo(); ?>
-                            </div>
-                        </div>
+                    <div class="flex flex-col justify-center rounded-xl shadow-gray-600 shadow-lg hover:scale-105 hover:-rotate-1 transition-transform">
+                        <?php get_template_part('template-parts/header/logo'); ?>
+                    </div>
                     <?php endif; ?>
                     <div class="flex flex-col justify-center">
                         <?php if ($title) : ?>
