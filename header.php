@@ -34,7 +34,7 @@ $customizer = new Customizer();
 $show_title = $customizer->showTitleAndTagline();
 $title = \get_bloginfo('name');
 $description = \get_bloginfo('description', 'display');
-$title_classes = new ClassList('font-bold text-3xl md:text-6xl')
+$title_classes = new ClassList('font-bold text-2xl md:text-4xl')
 ?>
 <header 
     class="header z-40 w-full flex group border-b-4 border-slate-700 pb-6 relative"
@@ -62,7 +62,7 @@ $title_classes = new ClassList('font-bold text-3xl md:text-6xl')
                             <?php endif; ?>
                         <?php endif ?>
                         <?php if ( $description && $show_title ) : ?>
-                            <p class="mt-3 text-xl"><?php echo $description; ?></p>
+                            <p class="mt-3 text-lg"><?php echo $description; ?></p>
                         <?php endif; ?>
                     </div>
                 </div>
