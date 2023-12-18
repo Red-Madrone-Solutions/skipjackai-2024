@@ -1569,8 +1569,16 @@ select {
   font-size: clamp(1.25rem, calc(1.25rem + ((1.375 - 1.25) * ((100vw - 20rem) / (96 - 20)))), 1.375rem);
   line-height: 1.6;
 }
+.text-lg {
+  font-size: clamp(1.40625rem, calc(1.40625rem + ((1.65 - 1.40625) * ((100vw - 20rem) / (96 - 20)))), 1.65rem);
+  line-height: 1.6;
+}
 .text-xl {
   font-size: clamp(1.58203125rem, calc(1.58203125rem + ((1.98 - 1.58203125) * ((100vw - 20rem) / (96 - 20)))), 1.98rem);
+  line-height: 1.2;
+}
+.text-2xl {
+  font-size: clamp(1.77978515625rem, calc(1.77978515625rem + ((2.3759999999999994 - 1.77978515625) * ((100vw - 20rem) / (96 - 20)))), 2.3759999999999994rem);
   line-height: 1.2;
 }
 .text-3xl {
@@ -2083,6 +2091,11 @@ select {
   }
 }
 @media (min-width: 782px) {
+
+  .md\:text-4xl {
+    font-size: clamp(2.2525405883789062rem, calc(2.2525405883789062rem + ((3.421439999999999 - 2.2525405883789062) * ((100vw - 20rem) / (96 - 20)))), 3.421439999999999rem);
+    line-height: 1.1;
+  }
 
   .md\:text-6xl {
     font-size: clamp(2.8508716821670532rem, calc(2.8508716821670532rem + ((4.926873599999999 - 2.8508716821670532) * ((100vw - 20rem) / (96 - 20)))), 4.926873599999999rem);
