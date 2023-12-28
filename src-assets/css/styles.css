@@ -12,8 +12,28 @@
   }
 
   h2 {
-    @apply text-4xl font-medium mt-3 mb-3;
+    @apply text-4xl font-medium my-[0.5em];
   }
+
+  h3 {
+    @apply text-xl font-medium mt-[0.5em];
+  }
+}
+
+.wp-block-group {
+
+  ul, ol {
+    @apply ml-7;
+  }
+
+  ul > li {
+    @apply list-disc;
+  }
+
+  ol > li {
+    @apply list-decimal;
+  }
+
 }
 
 .c-photo {
