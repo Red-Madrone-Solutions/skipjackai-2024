@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const fluid_type = require('tailwindcss-fluid-type');
+const default_theme = require('tailwindcss/defaultTheme');
 
 module.exports = {
     content: [
@@ -11,6 +12,9 @@ module.exports = {
         extend: {
             screens: {
                 'md': '782px',
+            },
+            fontFamily: {
+                'heading': [ 'Tahoma', ...default_theme.fontFamily.sans ],
             },
             margin: ({ theme }) => ({
                 'section': `clamp(${theme('width.12')}, 2.294vw + 1.041rem, ${theme('width.32')})`,
