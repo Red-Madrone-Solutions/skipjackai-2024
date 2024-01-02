@@ -1698,6 +1698,18 @@ select {
 .leading-snug {
   line-height: 1.375;
 }
+.\!leading-tight {
+  line-height: 1.25 !important;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.\!leading-snug {
+  line-height: 1.375 !important;
+}
+.\!leading-normal {
+  line-height: 1.5 !important;
+}
 .tracking-tight {
   letter-spacing: -0.025em;
 }
