@@ -104,6 +104,12 @@
   }
 }
 
+.prose {
+  .has-large-font-size {
+    @apply !text-xl;
+  }
+}
+
 @layer components {
 
   .page-wrapper {
