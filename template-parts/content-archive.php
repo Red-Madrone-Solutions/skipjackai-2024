@@ -13,7 +13,7 @@
     </div>
 
     <header class="mt-4">
-        <h1 class="font-heading font-light text-lg !leading-none mb-3">
+        <h1 class="font-heading font-light text-lg !leading-tight mb-3">
             <a href="<?php the_permalink(); ?>" class="before:absolute before:inset-0 hover:underline">
                 <?php the_title(); ?>
             </a>
@@ -22,6 +22,6 @@
             <span><?php echo get_the_date(); ?></span>
         </div>
     </header>
-    <div class="excerpt font-light text-sm mt-2"><?php the_excerpt(); ?></div>
+    <div class="excerpt font-light !leading-normal text-sm mt-2"><?php the_excerpt(); ?></div>
 </article>
 

@@ -14,7 +14,7 @@
     </div>
     <div class="lg:flex gap-8">
         <header class="lg:basis-1/3">
-            <h1 class="font-heading font-light text-2xl !leading-none mb-3"><?php the_title(); ?></h1>
+            <h1 class="font-heading font-light text-2xl !leading-tight mb-3"><?php the_title(); ?></h1>
             <div class="metadata text-xs grid grid-cols-2 font-normal gap-2 text-slate-700">
                 <span class="author flex items-center space-x-2">
                     <svg class="size-4 fill-current" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M28.21 18.19v0c-4.9 1.63-8.21 6.2-8.21 11.37v15.57 0c0 1.58 1.28 2.87 2.87 2.87h2v0c.6-.02 1.11.46 1.12 1.06 0 .01 0 .02 0 .03v8.53 -.001c0 1.3 1.06 2.37 2.37 2.37h7.27v0c1.3-.01 2.36-1.07 2.36-2.37v-8.53l-.001-.001c0-.61.49-1.1 1.1-1.1h2v0c1.58.01 2.88-1.26 2.89-2.84 0-.02 0-.03 0-.04V29.53h-.001c-.01-5.17-3.31-9.75-8.21-11.38v0c-.35-.15-.51-.56-.36-.9 .04-.12.13-.22.23-.29v-.001c3.29-2.03 4.31-6.35 2.28-9.64 -2.03-3.3-6.35-4.32-9.64-2.29 -3.3 2.02-4.32 6.34-2.29 9.63 .57.92 1.35 1.71 2.28 2.28v-.001c.31.2.39.63.18.94 -.08.1-.18.19-.3.24Z"/></svg>
@@ -37,7 +37,7 @@
                     </span>
                 <?php endif; ?>
             </div>
-            <div class="excerpt text-lg font-light mt-2"><?php the_excerpt(); ?></div>
+            <div class="excerpt text-lg !leading-snug font-light mt-2"><?php the_excerpt(); ?></div>
         </header>
 
         <div class="entry-content prose prose-xl dark:prose-invert max-w-none prose-headings:font-heading prose-h2:font-medium prose-h2:mb-[0.5em]">
