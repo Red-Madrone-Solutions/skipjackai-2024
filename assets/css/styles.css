@@ -2405,6 +2405,10 @@ select {
     flex-basis: 33.333333%;
   }
 
+  .lg\:basis-2\/3 {
+    flex-basis: 66.666667%;
+  }
+
   .lg\:items-center {
     align-items: center;
   }
