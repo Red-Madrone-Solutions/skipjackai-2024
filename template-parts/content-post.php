@@ -13,7 +13,7 @@
         ?>
     </div>
     <div class="lg:flex gap-8">
-        <header class="lg:basis-1/3">
+        <header class="lg:basis-1/3 mb-10">
             <h1 class="font-heading font-light text-2xl !leading-tight mb-3"><?php the_title(); ?></h1>
             <div class="metadata text-xs grid grid-cols-2 font-normal gap-2 text-slate-700">
                 <span class="author flex items-center space-x-2">
