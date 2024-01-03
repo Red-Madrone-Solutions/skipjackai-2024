@@ -5,7 +5,7 @@
     <header class="mt-8">
         <?php the_archive_title( '<h1 class="text-3xl font-medium">', '</h1>' ); ?>
     </header>
-    <div class="grid grid-cols-3 gap-8 mt-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
     <?php 
         if ( have_posts() ) {
 		    while ( have_posts() ) {

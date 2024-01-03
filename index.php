@@ -5,7 +5,7 @@
         <header class="mt-8">
             <h1 class="text-3xl font-medium">Blog</h1>
         </header>
-        <div class="grid grid-cols-3 gap-8 mt-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
     <?php endif; ?>
     <?php 
         if ( have_posts() ) {
