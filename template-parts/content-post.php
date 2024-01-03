@@ -40,7 +40,7 @@
             <div class="excerpt text-lg !leading-snug font-light mt-2"><?php the_excerpt(); ?></div>
         </header>
 
-        <div class="entry-content prose prose-xl dark:prose-invert max-w-none prose-headings:font-heading prose-h2:font-medium prose-h2:mb-[0.5em]">
+        <div class="entry-content prose prose-xl dark:prose-invert max-w-none prose-headings:font-heading prose-h2:font-medium prose-h2:mb-[0.5em] lg:basis-2/3">
             <?php the_content(); ?>
         </div>
     </div>
